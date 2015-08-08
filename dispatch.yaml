@@ -1,0 +1,8 @@
+application: go-meetups
+
+dispatch:
+  - url: "*/api/*"
+    module: default
+
+  - url: "*/*"
+    module: frontend
